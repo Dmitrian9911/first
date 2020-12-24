@@ -1,0 +1,154 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: Arial;
+    list-style: none;
+    text-decoration: none;
+}
+
+.container {
+    max-width: 1140px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.nav__container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav__logo {
+    font-size: 20px;
+    color: #cb0a15;
+    font-weight: 700;
+}
+
+.nav__list {
+    display: flex;
+}
+
+.nav__list_link {
+    color: #4d4d4d;
+    font-size: 18px;
+    font-weight: 700;
+    padding: 20px 30px;
+    display: inline-block;
+}
+
+.nav__list_link:hover {
+    background: #4d4d4d;
+    color: white;
+}
+
+.header {
+    background: url('../img/header_bg_image.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.header__title {
+    font-size: 40px;
+    color: #cb0a15;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 45px;
+}
+
+.header__description {
+    font-size: 18px;
+    color: #4d4d4d;
+    text-align: center;
+}
+
+.header__content {
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header__description_span {
+    font-size: 25px;
+    font-weight: 700;
+    color: #000;
+}
+.main{
+    padding: 100px 0;
+}
+.main__container{
+    display: flex;
+    justify-content: space-between;
+}
+.main__left_title{
+    font-size: 20px;
+    font-weight: 700;
+    color: #000;
+    margin-top: 60px;
+    margin-bottom: 30px;
+}
+.main__left_description{
+    line-height: 25px;
+    color: #919191;
+    font-size: 16px;
+    text-align: justify;
+    max-width: 540px;
+}
+.card{
+    display: flex;
+  
+}
+.card__content{
+    margin-left: 30px;
+}
+.card__title{
+    font-size: 20px;
+    color: #000;
+    font-weight: 700;
+    margin-bottom: 25px;
+}
+.card__description{
+    font-size: 16px;
+    color: #919191;
+    max-width: 350px;
+    text-align: justify;
+    line-height: 25px;
+}
+.main__right{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.footer{
+    padding: 45px 0;
+    background:#f9f9f9 ;
+}
+.footer__card_title{
+    font-size: 20px;
+    color: #000;
+    font-weight: 700;
+    margin-bottom: 22px;
+
+}
+.footer__list{
+    margin-right: 140px;
+}
+.footer__card_span{
+    color: #cb0a15;
+}
+.footer__list_link{
+    font-size: 16px;
+    color: #818181;
+    margin-bottom: 5px;
+    text-decoration: underline;
+}
+.footer__list_link:hover{
+    color: #cb0a15;
+}
+.footer__container{
+    display: flex;
+}
